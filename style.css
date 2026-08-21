@@ -12,8 +12,8 @@
 }
 
 body {
-    background: rgb(11, 232, 22);
-    color: rgb(36, 209, 16);
+    background: rgb(217, 244, 17);
+    color: rgb(44, 212, 220);
     padding: 10px;
     font-family: Arial, sans-serif;
 }
@@ -34,7 +34,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(12, 154, 33);
+    color: rgb(63, 208, 219);
     flex: 1;
     margin: 0;
 }
@@ -53,7 +53,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #0ecd1a;
+    color: #4fd5e4;
 }
 
 /* main container area beneath menu */
@@ -89,7 +89,7 @@ h2, h3 {
 }
 /* Portfolio styles */
 .content h1 {
-  color: black;
+  color: rgb(22, 238, 238);
 }
 
 #portfolio {
@@ -112,7 +112,7 @@ h2, h3 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #393636;
+  color: #242222;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
@@ -123,7 +123,7 @@ h2, h3 {
 }
 
 #portfolio a:hover {
-  background: #000000;
+  background: #101010;
   color: #f6f3f3;
   transform: translateX(4px);
 }
