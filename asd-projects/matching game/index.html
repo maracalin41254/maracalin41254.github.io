@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<title>Thanksgiving Match Game</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="logic.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		
+		/* Add your css here */
+h1 {
+  font-family: 'Sniglet', cursive;
+  color: orange;
+  margin: 10px;
+}
+#game-wrapper {
+  width: 760px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid orange;
+}
+
+
+	</style>
+</head>
+
+<body>
+<!-- Add your html here -->
+<div id="game-wrapper">
+  <h1>Thanksgiving Match Game</h1>
+  <div id="match-grid">
+  </div>
+  <a onclick="start()">RESTART</a>
+</div>
+
+
+	<script>
+		/* Add the images in following array */
+		var images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD93nlgeqNtEDg-LROeBNuUPg6Xif2mRIErvt-LSyi0-oju6Y_Uljn9r6z:https://prod.cdn-mw.com/assets/mw/images/gallery/gal-home-edpick-lg/image1935699383-4321-29ceac30bb152dd6aa226c921b2fb586%401x.jpg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHZmnrIXKU7QibvE3I5BGs1-ETSj-PQr2wRBj2vVt7ekE-rup8uMiX53AG:https://media.posterstore.com/site_images/6a2a5e098465832b7e6f24aa_1172884607_PS59228-8.jpg%3Fauto%3Dcompress%252Cformat%26fit%3Dmax%26w%3D3840&s=10", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Kz6hgMOF2obyc84S6qeJcTJcrkGpL6mfJybz-7YsgCve1hIxPAHLdQ8:https://m.media-amazon.com/images/I/81fag00MqIL._AC_UF350,350_QL80_.jpg&s=10"];
+
+		start();
+
+	</script>
+</body>
+
+</html>
